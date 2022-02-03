@@ -1,13 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://wallpaper.dog/large/10812310.png") no-repeat center
+    center fixed;
+  image-rendering: -webkit-optimize-contrast;
+  background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  text-shadow: 0 0 5px white;
+  color: rgb(255, 243, 243);
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: rgb(116, 99, 99);
+}
+
+input {
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  width: 30%;
+  max-width: 200px;
+  margin: 2rem auto;
 }
