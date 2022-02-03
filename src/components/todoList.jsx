@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import React, { useState } from "react";
 
 const AddTodo = () => {
@@ -178,7 +178,7 @@ const Add = styled.button`
   height: 40px;
   border-radius: 7px;
   cursor: pointer;
-  background: #9C8181;
+  background: #9c8181;
   color: white;
   font-size: 1.2em;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
